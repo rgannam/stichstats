@@ -18,6 +18,14 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue")
+  },
+  {
+    path: "/font-pattern-generator",
+    name: "font-pattern-generator",
+    component: () =>
+      import(
+        /* webpackChunkName: "font-pattern-generator" */ "../views/FontPatternGenerator.vue"
+      )
   }
 ];
 
