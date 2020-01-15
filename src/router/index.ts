@@ -26,6 +26,12 @@ const routes = [
       import(
         /* webpackChunkName: "font-pattern-generator" */ "../views/FontPatternGenerator.vue"
       )
+  },
+  {
+    path: "/stitchstats",
+    name: "stitchstats",
+    component: () =>
+      import(/* webpackChunkName: "stitchstats" */ "../views/StitchStats.vue")
   }
 ];
 

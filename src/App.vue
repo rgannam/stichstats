@@ -6,6 +6,8 @@
       <router-link to="/font-pattern-generator"
         >Font Pattern Generator</router-link
       >
+      |
+      <router-link to="/stitchstats">StitchStats</router-link>
     </div>
     <router-view />
   </div>
