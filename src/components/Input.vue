@@ -1,10 +1,11 @@
 <template>
   <div>
-    Pattern Name: <input v-model="patternName" /> Pattern Designer:
-    <input v-model="patternDesigner" />
+    Pattern Name: <input v-model="patternName" />
+    <br />
+    Pattern Designer: <input v-model="patternDesigner" />
+    <br />
     <button v-on:click="submitPattern">Submit to DB</button>
-    {{ patternDocument }}
-
+    <br />
     {{ patterns }}
   </div>
 </template>
